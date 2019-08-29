@@ -1,5 +1,5 @@
 # socialmedia
 
-#practicing HTML & CSS by building a social media page "facebook clone page"
+#Practicing HTML & CSS by building a social media page "facebook clone page"
 
-# project is under construction :hammer: :wrench: :smiley: :smiley:
+# Project Is Under Construction :hammer: :wrench: :smiley: :smiley:
