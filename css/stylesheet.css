@@ -1,0 +1,17 @@
+html{
+	font-family: sans-serif;
+}
+header{
+	background: #3B5998;
+}
+
+.logo-area, .menu, .menu ul li, .icon-links, .icon-links ul li, .icon-links .privacy, .icon-links .quick-options, .search-area, .search-area ul li{
+	display: inline-block;
+	color: #fff;
+}
+
+.logo-area a{
+	color: #fff;
+ 	text-decoration: none;
+ 	font-size: 20px;
+}
