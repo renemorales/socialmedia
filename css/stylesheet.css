@@ -1,17 +1,155 @@
+*{
+	box-sizing: border-box;
+}
 html{
 	font-family: sans-serif;
 }
 header{
 	background: #3B5998;
+	padding: 15px;
 }
 
-.logo-area, .menu, .menu ul li, .icon-links, .icon-links ul li, .icon-links .privacy, .icon-links .quick-options, .search-area, .search-area ul li{
+header a{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+header .fa{
+	color: #FFF;
+	font-size: 16px
+}
+
+a{
+	text-decoration: none;
+}
+
+header .logo-area, 
+header .menu, 
+header .menu ul li, 
+header .icon-links, 
+header .icon-links ul li, 
+header .icon-links .privacy, 
+header .icon-links .quick-options, 
+header .search-area, 
+header .search-area ul li{
 	display: inline-block;
-	color: #fff;
 }
 
-.logo-area a{
+header .logo-area,
+header .menu,
+header .icon-links{
+	width: 20%;
+	margin-left: -4px;
+}
+
+header .logo-area a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header .menu ul li a{
+	margin-right: 20px;
+}
+
+header .icon-links{
+	padding-left: 20px;
+}
+
+header .icon-links ul li{
+	margin-right: 10px;
+}
+
+header .menu, header .quick-options{
+	border-right: 1px solid rgba(255, 255, 255, .3);
+	text-align: right;
+	padding-right: 20px;
+}
+
+header .quick-options, header .icon-links .privacy{
+	padding-left: 20px;
+
+}
+
+header .search-area{
+	width: 40%;
+	text-align: right;
+	margin-left: -4px;
+}
+
+
+header .logo-area{
+	color: #fff;
+	width: 20%;
+}
+
+header .logo-area a{
 	color: #fff;
  	text-decoration: none;
  	font-size: 20px;
 }
+
+/*==================================================================================*/
+/*======================================TOP-AREA====================================*/
+
+#top-area{
+	padding: 200px 15px 90px 15px;
+	background: url('../img/barraques.cat_background-wallpaper_7755.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#top-area .profile-info .user-img{
+	padding: 10px;
+	display: inline-block;
+}
+
+#top-area .profile-info .user-img img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+#top-area .profile-info .user-details{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+}
+
+#top-area .profile-info .user-details h3{
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+#top-area .profile-info .user-details a{
+	display: inline-block;
+	margin-left: -4px;
+	width: 45%;
+	margin-right: 5%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 10px;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: rgba(255, 255, 255, .3);
+	transition: background .4s ease-in-out;
+}
+
+#top-area .profile-info .user-details a:hover{
+	background: #2196F3;
+}
+
+/*==================================================================================*/
+/*====================================Content-AREA====================================*/
+
+#content-area{}
