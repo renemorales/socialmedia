@@ -152,4 +152,152 @@ header .logo-area a{
 /*==================================================================================*/
 /*====================================Content-AREA====================================*/
 
-#content-area{}
+#content-area{
+	background-color: #FAFAFA;	
+	overflow: auto;
+	padding: 50px 0;
+}
+
+#content-area .side-column{
+	float: left;
+	width: 35%;
+	margin: 0 2.5%;
+	max-width: 380px;
+}
+
+#content-area .widget-box{
+	padding: 15px;
+	background-color:  #FFF;
+	margin: 0 0 15px 0;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+	-moz-box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+	box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+	overflow: auto;
+}
+
+#content-area .widget-box .head .widget-icon-container{
+	display: inline-block;
+}
+
+#content-area .widget-box .head .widget-icon-container .widget-icon{
+	background-color: rgb(229, 229, 229);
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	color: #FFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#content-area .widget-box .head .widget-icon .fa{
+	max-width: 50%;
+	font-size: 22px;
+}
+
+#content-area .widget-box .head .widget-title{
+	display: inline-block;
+	padding: 0 0 0 10px;
+}
+
+#content-area .widget-box .body{
+	padding: 25px 0;
+}
+
+#content-area .side-column .photos .body div img, #content-area .side-column .friends .body div img {
+	display: inline-block;
+	float: left;
+	width: 33.3%;
+	height: 110px;
+	padding: 3px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	cursor: pointer;
+}
+
+#content-area .main-area{
+	float: left;
+	width: 55%;
+	margin: 0 2.5%;
+}
+
+#content-area .main-area .widget-box.submenu{
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+#content-area .main-area .submenu ul{
+	padding: 0;
+}
+
+#content-area .main-area .submenu ul li{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 3px solid #FFF;
+	transition: all .4s easy-in-out;
+	cursor: pointer;
+	color: rgb(128,128,128);
+}
+
+#content-area .main-area .submenu ul li:hover{
+	border-bottom: 3px solid #2196F3;
+	color: #2196F3;
+}
+
+#content-area .main-area .submenu ul li:nth-child(5){
+	padding: 25px 0 21px;
+	border-bottom: none;
+}
+
+#content-area .main-area .submenu ul li .fa{
+	font-size: 20px;
+}
+
+#content-area .main-area .submenu ul li span{
+	display: block;
+	margin: 15px 0 0 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#content-area .main-area .widget-box.post{
+	overflow: auto;
+}
+
+#content-area .main-area .widget-box.post .head .user-img{
+	display: inline-block;
+	float: left;
+	background: url('../img/MV5BMjA3NjYzMzE1MV5BMl5BanBnXkFtZTgwNTA4NDY4OTE%40._V1_UX172_CR0%2C0%2C172%2C256_AL_.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 40px; 
+	width: 40px;
+	margin: 0 15px 0 0;
+	border-radius: 50%;
+}
+
+#content-area .main-area .widget-box.post .head .post-info{
+	display: inline-block;
+	float: left;
+	width: 80%;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .user-info{
+	display: block;
+	font-size: 14px;
+	margin: 4px 0 6px 0;
+}
+
+#content-area .main-area .widget-box.post .head .post-info .post-date{
+	color: gray;
+	font-size: 12px;
+}
+
